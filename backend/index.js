@@ -22,6 +22,7 @@ app.use(
     origin: "https://edutechpro-onlinecourse-frontend.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
   })
 );
 
