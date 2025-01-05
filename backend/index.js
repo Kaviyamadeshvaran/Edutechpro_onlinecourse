@@ -61,7 +61,8 @@ const PORT = process.env.PORT || 5000;
 // Middleware for CORS
 app.use(
   cors({
-    origin: "https://edutechpro-onlinecourse-frontend.onrender.com", // Frontend URL
+    origin: ["https://edutechpro-onlinecourse-frontend.onrender.com", 
+    "http://localhost:5173" ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
