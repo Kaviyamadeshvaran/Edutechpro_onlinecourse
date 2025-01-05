@@ -40,5 +40,7 @@
   },
   "engines": {
   "node": "18.x"
-}
+},
+  "proxy": "https://edutechpro-onlinecourse-backend.onrender.com"
+
 }
