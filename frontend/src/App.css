@@ -105,7 +105,7 @@ select {
 
 .card,
 .card1 {
-  width: calc(33%-10px);
+  width: calc(33% - 10px);
   height: 40%;
 }
 
@@ -263,7 +263,7 @@ select {
 
 @media (min-width: 940px) {
   .card {
-    width: calc(25%-10px);
+    width: calc(25% - 10px);
   }
 
 }
