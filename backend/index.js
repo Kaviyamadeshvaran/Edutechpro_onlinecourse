@@ -19,10 +19,9 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://edutechpro-onlinecourse-frontend.onrender.com",
+    origin: "https://edutechpro-onlinecourse-frontend.onrender.com", // Frontend Render URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
-    credentials: true,
   })
 );
 
